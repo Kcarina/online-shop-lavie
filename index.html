@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Vie Beauty</title>
+   
+  <!-- Bootstrap link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!-- Favicon -->
+  <link rel="icon" href="lavie1.png">
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/c1fd955ab6.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+  <header>
+    <div class="container-fluid">
+      <br>
+      <h1>La Vie</h1>
+      <p><em>beauty</em></p>
+      <div class="icons">
+        <i class="fa-solid fa-cart-shopping"></i>
+                   <i class="fa-solid fa-heart-circle-plus"></i>
+                  <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <body>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Каталог</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Новинки</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Сертификаты</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Акции</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Sale</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Клиентам</a>
+      </li>
+    </ul>
+
+
+    <br>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="elemis1.jpeg" class="d-block w-100" alt="Elemis">
+        </div>
+        <div class="carousel-item">
+          <img src="cp1.jpg" class="d-block w-100" alt="CPI">
+        </div>
+        <div class="carousel-item">
+          <img src="drjb.png" class="d-block w-100" alt="Dr Jart">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+<!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная страница</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Каталог</li>
+
+
+      </ol>
+    </nav>
+
+<!-- Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          Новинки
+        </div>
+        <div class="col-sm">
+          Хиты продаж
+        </div>
+        <div class="col-sm">
+          Только в La Vie
+        </div>
+        <div class="col-sm">
+          Товар месяца
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- Dropdown -->
+    <div class="d-flex">
+
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-outline-info">Товары</button>
+      <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
+        <span class="sr-only">Товары</span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+        <a class="dropdown-item" href="#">Уход за кожей</a>
+        <a class="dropdown-item" href="#">Декор</a>
+        <a class="dropdown-item" href="#">Уход за волосами</a>
+        <a class="dropdown-item" href="#">Парфюмерия</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Аксессуары</a>
+      </div>
+  </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-outline-info">Бренд</button>
+    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" id="dropdowBrands" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Бренд</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#">Babor</a>
+      <a class="dropdown-item" href="#">Biore</a>
+      <a class="dropdown-item" href="#">Dr.Jart</a>
+      <a class="dropdown-item" href="#">Elemis</a>
+      <a class="dropdown-item" href="#">Erborian</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">The Ordinary</a>
+    </div>
+  </div>
+</div>
+
+    <br />
+
+<!-- Card Images -->
+    <div class="card" style="width: 18rem;">
+      <img src="babor 1.jpeg" class="card-img-top" alt="Babor Active Purifier">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Babor</strong> </h5>
+        <p class="card-text">Active Purifier<br />Ампулы для Проблемной Кожи<br /><span style="color:#9977A6;font-weight: bold">18 900 ₸</span> <br /></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="babor 2.jpeg" class="card-img-top" alt="Babor Cleansing Foam">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Babor</strong> </h5>
+        <p class="card-text">Пенка для умывания Babor Cleansing Cleanser Foam 200ml <br /> <span style="color:#9977A6;font-weight:bold">19 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="biore.jpeg" class="card-img-top" alt="Biore">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Biore</strong> </h5>
+        <p class="card-text">Солнцезащитный флюид Biore UV Agua Rich 50ml <br /> <span style="color:#9977A6;font-weight:bold">6 500 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="bioree.png" class="card-img-top" alt="Biore">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Biore</strong> </h5>
+        <p class="card-text">Пенка для умывания <br /> 130 ml<br /> <span style="color:#9977A6;font-weight:bold">4 000 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="jart.jpeg" class="card-img-top" alt="Dr Jart">
+      <div class="card-body">
+        <h5 class="card-title"><strong><abbr title="Dr.Jart+">DJ+</abbr></strong> </h5>
+        <p class="card-text"> Ceramidin Крем для лица<br /> 50 ml<br /> <span style="color:#9977A6;font-weight:bold">17 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="jart 1.jpeg" class="card-img-top" alt="Dr Jart">
+      <div class="card-body">
+        <h5 class="card-title"><strong><abbr title="Dr.Jart+">DJ+</abbr></strong> </h5>
+        <p class="card-text">Cicapair Enzyme Cleansing Foam <br /> 100 ml <br><span style="color:#9977A6;font-weight:bold">14 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="jart 3.jpeg" class="card-img-top" alt="Dr Jart">
+      <div class="card-body">
+        <h5 class="card-title"><strong><abbr title="Dr.Jart+">DJ+</abbr></strong> </h5>
+        <p class="card-text">Every Sun Day Tone-Up <br /> SPF50+ PA+++ <br /> <span style="color:#9977A6;font-weight:bold">8 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="dj.jpg" class="card-img-top" alt="Dr Jart">
+      <div class="card-body">
+        <h5 class="card-title"><strong><abbr title="Dr.Jart+">DJ+</abbr></strong> </h5>
+        <p class="card-text">V7 Toner <br /> 120 ml <br /> <span style="color:#9977A6;font-weight:bold">14 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="qa 1.jpeg" class="card-img-top" alt="Q+A">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Q+A</strong> </h5>
+        <p class="card-text">Peptide Facial Serum <br /> Сыворотка для лица <br /> <span style="color:#9977A6;font-weight:bold">9 600 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="el.jpeg" class="card-img-top" alt="Elemis">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Elemis</strong> </h5>
+        <p class="card-text">Superfood Berry Boost Purifying Mask <br /> <span style="color:#9977A6;font-weight:bold">22 800 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="er.jpeg" class="card-img-top" alt="Erborian">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Erborian</strong> </h5>
+        <p class="card-text">Milk&Peel Mask <br /> 60 ml <br /> <span style="color:#9977A6;font-weight:bold">17 100 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="err.jpeg" class="card-img-top" alt="Erborian">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Erborian</strong> </h5>
+        <p class="card-text">Yuza Double Lotion <br /> 190 ml <br /> <span style="color:#9977A6;font-weight:bold">19 900 ₸</span></p>
+        <a href="#" class="btn btn-block btn-dark">Купить</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Пред</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">След</a></li>
+      </ul>
+    </nav>
+
+<!-- Footer -->
+<div class="container-responsive">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <strong>Покупателям</strong>
+
+          <ul>
+
+            <li>Доставка и оплата</li>
+            <li>Адреса магазинов</li>
+            <li>Дисконтный клуб</li>
+
+
+          </ul>
+        </div>
+        <div class="col-sm">
+          <strong>Контакты</strong>
+          <ul>
+
+            <li>880-880</li>
+            <li>+7(701)000-00-00</li>
+            <li>lavie@gmail.com</li>
+
+
+          </ul>
+        </div>
+        <div class="col-sm">
+          <strong>Информация</strong>
+          <ul>
+
+            <li>Бренды</li>
+            <li>Полезная информация</li>
+            <li>FAQ</li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <footer>
+        <h3> &copy 2022 La Vie </h3>
+      </footer>
+
+    </div>
+
+  </body>
+
+
+
+</html>

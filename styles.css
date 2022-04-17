@@ -1,0 +1,75 @@
+.h1 {
+  font-size: 60px;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: #B7CAD8;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.icons {
+  font-size: 25px;
+  text-align: right;
+}
+
+.navbar-nav {
+  text-align: right;
+  word-spacing: 200px;
+}
+
+.btn-group {
+  padding-right: 10px;
+}
+
+.card {
+  text-align: center;
+  display: inline-block;
+  background-color: inherit;
+  border: solid 15px;
+  border-width: thin;
+  width: 300px;
+  margin: 30px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+button {
+  text-align: justify;
+  font-size: 10px;
+}
+
+.container {
+  width: hsl(360, 100%, 100%);
+  position: relative;
+}
+
+.menu {
+  margin-bottom: 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.pagination {
+ position: center;
+ padding-left: 600px;
+ 
+}
+
+h3 {
+  font-size: medium;
+  position: relative;
+  left: 100px;
+  right: 150px;
+}
+
+.desc {
+  text-decoration-color: #9977A6;
+}
+
+.container-responsive {
+  text-align: left;
+  background-color: #B7CAD8;
+  padding: 20px;
+}
